@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mcosta-nodered-ex1
+  host: mcosta-nodered-ex1
+  disk_quota: 1024M
+  services:
+  - Language Translator-i0
+  - Text to Speech-l9
+  - Conversation-p2
+  - Speech To Text-p1
